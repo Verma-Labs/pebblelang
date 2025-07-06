@@ -1,0 +1,7 @@
+comment: This is a PebbleLang script
+set x to 5
+set y to 3
+increase x by y
+decrease y by 1
+show x
+show y
