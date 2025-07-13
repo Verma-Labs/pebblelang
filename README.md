@@ -1,24 +1,25 @@
 # PebbleLang
 
-A simple, human-readable programming language (...baby steps).
+PebbleLang is a human-readable programming language built from scratch using Python by Atul Verma, a Hobbyist.  
+It supports variable assignment, arithmetic operations, conditional execution, and simple loops — all written in plain English.
 
-## Example Syntax
+This is not a full language, but a working interpreter designed to explore how languages are built from first principles.
 
-set x to 5
-increase x by 2
-decrease x by 1
-show x
+---
 
-## How to Run
+## Supported Syntax
 
-python pebble.py example.peb
+```plaintext
+set x to 5                   # assign value
+increase x by 2             # add number or variable
+decrease y by 1             # subtract
+show x                      # print value
 
-## Supported Commands
+if x is greater than y then
+  show x
+end
 
-- `set x to 5` → create a variable
-- `increase x by 2` → add to it
-- `decrease x by 1` → subtract
-- `show x` → print it
-- `comment: ...` → ignored
-
-Suggestions welcome.
+repeat 3 times:
+  increase x by 1
+  show x
+end

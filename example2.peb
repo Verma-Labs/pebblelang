@@ -1,0 +1,17 @@
+set x to 3
+set y to 5
+
+if y is greater than x then
+  show y
+end
+
+if x is greater than y then
+  show x
+end
+
+repeat 2 times:
+  increase x by 1
+  show x
+end
+
+show y
